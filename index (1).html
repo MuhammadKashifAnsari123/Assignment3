@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Movie Recommendation App</title>
+</head>
+<body>
+    
+    <div class="search-sect">
+        <div>
+            <label for="genre">GENRE</label>
+            <select name="genre" id="genreId">
+                <option value="all">All</option>
+                <option value="action">Action</option>
+                <option value="Science Fiction">Sci-Fi</option>
+                <option value="horro">Horror</option>
+                <option value="crime">Crime</option>
+            
+            </select>
+        </div>
+
+        <div>
+        <label for="year">YEAR</label>
+            <select name="year" id="yearId">
+                <option value="all">All</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+            
+            </select>
+        </div>
+
+        <div>
+            <label for="lanuages">LANGUAGES</label>
+            
+            <select name="languages" id="languagesId">
+                <option value="all">All</option>
+                <option value="English">English</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Spanish">Spanish</option>
+                
+            
+            </select>
+        </div>
+
+
+        <div> 
+
+            <label for="vote_average">RATINGS</label>
+            <select name="ratings" id="ratingsId">
+                <option value="all">All</option>
+                <option value="dave">10</option>
+            
+            </select> 
+
+        </div>  
+    </div>    
+
+    <div class="btn-div">
+        <button id="searchBtn">Search</button>
+
+    </div>
+
+
+    <div class="display-area">
+        <div class="rank" id="rank">
+            <h3>RANK</h3>
+
+        </div>
+
+        <div class="movie" id="movie">
+            <h3>MOVIE</h3>
+
+        </div>
+
+        <div class="year" id="year">
+            <h3>YEAR</h3>
+
+        </div>
+        
+
+    </div>
+
+
+    <script src="assignment3.js"></script>
+</body>
+</html>
